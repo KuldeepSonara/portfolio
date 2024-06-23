@@ -35,7 +35,18 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <svg width="100" height="40" xmlns="http://www.w3.org/2000/svg">
+            <text
+              x="10"
+              y="30"
+              font-family="Arial, sans-serif"
+              font-size="30"
+              font-weight="500"
+              fill="#C770EF"
+            >
+              SK.
+            </text>
+          </svg>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
